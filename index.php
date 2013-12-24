@@ -39,9 +39,7 @@
       </div>
 
       <!-- Site footer -->
-      <div class="footer">
-        <p>&copy; Thurmont Smiles 2013</p>
-      </div>
+      <?php readfile("bits/footer.php")?>
 
     </div> <!-- /container -->
 
