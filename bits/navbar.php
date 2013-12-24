@@ -8,6 +8,6 @@
     <li><a href="#">Contact</a></li>
   </ul>
   <div id="logoHolder">
-  <img src="http://placehold.it/500x50" />
+  	<img src="img/main.png" />
   </div>
 </div>
