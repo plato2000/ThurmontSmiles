@@ -4,6 +4,13 @@ body {
 }
 
 #navbarLogo {
-	height:40px;
-	width:43px;
+	height:50px;
+	width:53.75px;
+	padding:5px;
+}
+
+#logoHolder {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }

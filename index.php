@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<?php readfile("bits/commonHEAD.php")?>
-		<title>Home - Thurmont Smiles</title>
-	</head>
-	<body>
-		<!-- The Navbar-->
-	    <?php readfile("bits/navbar.php")?>
+		<head>
+				<?php readfile("bits/commonHEAD.php")?>
+				<title>Home - Thurmont Smiles</title>
+		</head>
+		<body id="dummybodyid">
+				<div class="container">
+				<!-- The Navbar-->
+				<?php readfile("bits/navbar.php")?>
 
-	    <div class="container">
 
-	      <!-- Main component for a primary marketing message or call to action -->
-	      <div class="jumbotron">
-	        <h1>Navbar example</h1>
-	        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-	        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-	        <p>
-	          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-	        </p>
-	      </div>
+					<!-- Main component for a primary marketing message or call to action -->
+					<!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Marketing stuff!</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+      </div>
 
-	    </div> <!-- /container -->
-		<!-- Scripts, at the end for efficient loading and stuff-->
-		<?php readfile("bits/scripts.php")?>
-	</body>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>Safari bug warning!</h2>
+          <p class="text-danger">Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+          <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <!-- Site footer -->
+      <div class="footer">
+        <p>&copy; Thurmont Smiles 2013</p>
+      </div>
+
+    </div> <!-- /container -->
+
+				</div> <!-- /container -->
+				<!-- Scripts, at the end for efficient loading and stuff-->
+				<?php readfile("bits/scripts.php")?>
+		</body>
 </html>
