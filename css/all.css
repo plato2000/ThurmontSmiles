@@ -11,3 +11,7 @@ body {
 	display: block;
 	width: 500px;
 }
+
+#footer {
+	text-align: center;
+}
